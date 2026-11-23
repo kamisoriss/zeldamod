@@ -656,5 +656,19 @@
         0.55
       ]
     }
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "zeldamod:item/bomb_orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "zeldamod:item/bomb_red"
+    }
+  ]
 }

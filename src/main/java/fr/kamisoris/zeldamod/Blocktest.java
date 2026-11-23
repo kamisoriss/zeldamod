@@ -9,10 +9,4 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class Blocktest
 {
-    public static final DeferredRegister<Block> bombblock = DeferredRegister.create(ForgeRegistries.BLOCKS, "zeldamod");
-    public static final RegistryObject<Block> bomb = bombblock.register("bomb", () -> new Bomb(BlockBehaviour.Properties.of
-            (
-
-            )
-    ));
 }
